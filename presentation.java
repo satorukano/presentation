@@ -31,7 +31,11 @@ public void testAdd() {
 
 
 
-public boolean isEligible(int age, double salary, boolean isEmployed, boolean hasDegree) {
+public boolean isEligible(int age, 
+                          double salary, 
+                          boolean isEmployed, 
+                          boolean hasDegree) {
+                            
     if ((age > 20 && age < 30 && salary > 40000.0 && isEmployed) ||
         (age > 25 && hasDegree) ||
         (!isEmployed && salary < 30000.0 && hasDegree)) {
