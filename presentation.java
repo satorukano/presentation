@@ -19,7 +19,7 @@ class Calculator {
 }
 
 @Test
-void testAdd() {
+public void testAdd() {
     Calculator calculator = new Calculator();
     assertEquals(5, calculator.add(2, 3));
     assertEquals(-1, calculator.add(-2, 1));
